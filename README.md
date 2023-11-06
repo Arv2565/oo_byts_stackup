@@ -5,7 +5,7 @@
 1. [Jess Mathews](https://github.com/jessmathews)
 2. [Arvind S](https://github.com/Arv2565)
 3. [Muhammed Shahzad](https://github.com/shahzadkk012)
-4. [Yadhu Krishnan AS](https://github.com/yadhukr1shnan])
+4. [Yadhu Krishnan AS](https://github.com/yadhukr1shnan)
 ## Team Id
 oo_byts
 ## Link to product walkthrough
@@ -14,7 +14,7 @@ oo_byts
 1. Explaining the working of project
 2. Embed video of project demo
 ## Libraries used
-Library Name - Version
+- React
 ## How to configure
 Instructions for setting up project
 ## How to Run
