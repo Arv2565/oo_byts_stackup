@@ -9,9 +9,10 @@ export default function Home() {
       Login
     </Link>
   </div>
-  
-  <div class="flex justify-center items-center h-screen">
-  <Link class='bg-blue-500 hover:bg-blue-700 text-white font-semibold py-6 px-14 rounded-full transition duration-300 ease-in-out' href="/signup">
+
+
+  <div class="flex justify-center items-center mb-4 h-screen">
+  <Link class='bg-blue-500 hover:bg-blue-700 text-white font-semibold py-6 px-14 rounded-full transition duration-300 ease-in-out relative top-1/4' href="/signup">
 
 Unlock Your Productivity Potential!
   </Link>
