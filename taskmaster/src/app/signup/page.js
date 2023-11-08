@@ -48,13 +48,13 @@ export default function SignupPage() {
       <div class="w-full md:w-1/2 flex flex-col">
 
         <div class="flex justify-center md:justify-start pt-12 md:pl-12 md:-mb-12">
-          <Link href="/" class="bg-black text-white font-bold text-xl p-4" alt="Logo">Logo</Link>
+          <Link href="/" class="bg-black text-white font-bold text-xl p-4 rounded-md" alt="Logo">TaskMaster</Link>
         </div>
 
         <div class="flex flex-col justify-center md:justify-start my-auto pt-8 md:pt-0 px-8 md:px-24 lg:px-32">
           <p class="text-center text-3xl">Join Us.</p>
           <div class="flex flex-col pt-4">
-            <label htmlFor="username">Username</label>
+            <label htmlFor="username" class="text-lg">Username</label>
             <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mt-1 leading-tight focus:outline-none focus:shadow-outline "
               type="text" id="username" onChange={(e) => setUser({ ...user, username: e.target.value })}
               placeholder="arthur_morgan" />
@@ -78,7 +78,7 @@ export default function SignupPage() {
             <input type="password" id="confirm-password" placeholder="Password" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mt-1 leading-tight focus:outline-none focus:shadow-outline" />
           </div> */}
 
-          <button onClick={onSignup} className="bg-black text-white font-bold text-lg hover:bg-gray-700 p-2 mt-8"> Signup</button>
+          <button onClick={onSignup} className="bg-black text-white font-bold text-lg hover:bg-gray-700 p-2 mt-8 rounded"> Signup</button>
           <div class="text-center pt-12 pb-12">
             <p>Already have an account? <Link href="login" class="underline font-semibold">Log in here.</Link></p>
           </div>
