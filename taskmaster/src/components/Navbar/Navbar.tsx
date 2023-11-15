@@ -71,7 +71,7 @@ function Navbar() {
           padding={"0.4rem 0.8rem"}
           borderRad={"0.8rem"}
           fw={"200"}
-          fs={"1.2rem"}
+          fs={"1rem"}
           icon={logout}
           click={() => {
             signOut(() => router.push("/signin"));
@@ -84,7 +84,7 @@ function Navbar() {
 
 const NavbarStyled = styled.nav<{ collapsed: boolean }>`
   position: relative;
-  min-height: ${(props) => props.theme.navbarHeight};
+  height: ${(props) => props.theme.navbarHeight};
   background-color: ${(props) => props.theme.colorBg2};
   border: 2px solid ${(props) => props.theme.borderColor2};
   border-radius: 1rem;
@@ -160,10 +160,10 @@ const NavbarStyled = styled.nav<{ collapsed: boolean }>`
 
     .profile-overlay {
       position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
+      top: 17px;
+      left: 13px;
+      width: 50px;
+      height: 50px;
       backdrop-filter: blur(10px);
       z-index: 0;
       background: ${(props) => props.theme.colorBg3};
@@ -195,8 +195,8 @@ const NavbarStyled = styled.nav<{ collapsed: boolean }>`
       transition: all 0.5s ease;
       border-radius: 100%;
 
-      width: 70px;
-      height: 70px;
+      width: 50px;
+      height: 50px;
 
       img {
         border-radius: 100%;
@@ -224,12 +224,12 @@ const NavbarStyled = styled.nav<{ collapsed: boolean }>`
 
   .nav-item {
     position: relative;
-    padding: 0.8rem 1rem 0.9rem 2.1rem;
+    padding: 0.8rem .5rem 0.9rem 1rem;
     margin: 0.3rem 0;
     border-radius: 0.5rem;
 
     display: grid;
-    grid-template-columns: 40px 1fr;
+    grid-template-columns: 30px 1fr;
     cursor: pointer;
     align-items: center;
 
@@ -248,7 +248,6 @@ const NavbarStyled = styled.nav<{ collapsed: boolean }>`
     &::before {
       position: absolute;
       content: "";
-      right: 0;
       top: 0;
       width: 0%;
       height: 100%;

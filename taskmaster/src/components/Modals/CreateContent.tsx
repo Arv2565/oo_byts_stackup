@@ -130,8 +130,8 @@ function CreateContent() {
           icon={add}
           padding={"0.8rem 2rem"}
           borderRad={"0.8rem"}
-          fw={"500"}
-          fs={"1.2rem"}
+          fw={"400"}
+          fs={"1rem"}
           background={"rgb(0, 163, 255)"}
         />
       </div>
